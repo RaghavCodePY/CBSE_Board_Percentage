@@ -26,5 +26,6 @@ public class Main {
         float total_marks = math+physics+science+chemistry+computer_science;
         float percentage = total_marks/5;
         System.out.println("Your percentage: " + percentage + "%");
+        scn.close();
     }
 }
